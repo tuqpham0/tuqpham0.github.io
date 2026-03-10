@@ -1,5 +1,5 @@
 # Site
-repository: tuqpham0.github.io
+repository: tuqpham0/tuqpham0.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -50,11 +50,9 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  Hi, my name is Tuyen Pham, I am a currently a graduate student at the University of Florida studying mathematics. I am currently looking for work in software engineering in general, but I have interest in machine learning, computer vision, and data science.
     - Lists
     - Tables
     - <a href="google.com">Links</a>
