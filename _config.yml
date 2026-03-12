@@ -87,8 +87,8 @@ content:
         title: PhD in mathematics
         sub_title: University of Florida
         caption: 2021 -- 2026
-        quote: >
-           " "
+        # quote: >
+        #    " "
         description: | # this will include new lines to allow paragraphs
           Studied computational topology and geometry under the supervision of Dr. Hubert Wagner. My research focuses on the topological and geometric analysis of machine learning models via their outputs or internal representations.
 
@@ -97,16 +97,16 @@ content:
         title: MS in mathematics
         sub_title: CalPoly, San Luis Obispo
         caption: 2018 -- 2020
-        quote: >
-          " "
+        # quote: >
+        #   " "
         description: | # this will include new lines to allow paragraphs
           Description of qualification
       - layout: top-right
         title: BS in mathematics and Minor in statistics
         sub_title: CalPoly, San Luis Obispo
         caption: 2011 -- 2016
-        quote: >
-          " "
+        # quote: >
+        #   " "
         description: | # this will include new lines to allow paragraphs
           Description of qualification
   - title: Experience
@@ -117,18 +117,17 @@ content:
         sub_title: Algebra I teacher
         caption: 2020 -- 2021
         link: https://sloclassical.org/
-        quote: >
-          " "
+        # quote: >
+        #   " "
         description: | # this will include new lines to allow paragraphs
           Taught Algebra I to high school and middle school students at a small private school in San Luis Obispo, CA.
 
           Was a member of a curriculum development team to adjust the curriculum to have better gradual flow of concepts and ease the introduction to higher degree polynomials.
-  - title: A Little More About Me
+  - title: Research interests
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: More about me
+      
 
 # Footer
 footer_show_references: true
