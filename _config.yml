@@ -52,13 +52,10 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am a PhD student in mathematics at the University of Florida. My research focuses on computational topology and geometry, with applications to machine learning.
+  My current project focuses on creating efficient algorithms and data structures for working with Bregman divergences, a family of dissimilarity measures used in machine learning and data analysis, and their induced geometries.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I have also worked on projects in computational topology, including an algorithm for computing generators of persistent homology.
 
 content:
   - title: Projects # Title for the section
@@ -68,8 +65,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Bregman Kd-trees
-        # link: tuqpham0.github.io/BANN
-        # link_text: BANN Package
+        link: tuqpham0.github.io/BANN
+        link_text: BANN Package
         additional_links:
           - title: GitHub Repository for BANN
             icon: fab fa-github
@@ -78,21 +75,11 @@ content:
             icon: fab fa-python
             url: https://pypi.org/project/BANN/
         quote: >
-          " "
+          An efficient tool for computing (approximate) nearest neighbors with decomposable Bregman divergences. It also permits efficient algorithms for computing the Bregman--Hausdorff divergence.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          " "
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          An extension of the kd-tree data structures for decomposable Bregman divergences. Despite often being assymmetric and never satisfy the triangle inequality, Bregman geometries admit a well-behaved geometry. This allows us to extend the Kd-tree beyond metric spaces and develop efficient algorithms.
+          
+          This work is done in collaboration with Dr. Hubert Wagner, and built off of the ANN package made by Arya and Mount.
   - title: Education
     layout: list
     content:
@@ -103,7 +90,9 @@ content:
         quote: >
            " "
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Studied computational topology and geometry under the supervision of Dr. Hubert Wagner. My research focuses on the topological and geometric analysis of machine learning models via their outputs or internal representations.
+
+          - Dissertation: "Efficient tools for the Geometric and Topological Analysis of Machine Learning Models"
       - layout: top-right
         title: MS in mathematics
         sub_title: CalPoly, San Luis Obispo
@@ -120,6 +109,20 @@ content:
           " "
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: SLO Classical Academy
+        sub_title: Algebra I teacher
+        caption: 2020 -- 2021
+        link: https://sloclassical.org/
+        quote: >
+          " "
+        description: | # this will include new lines to allow paragraphs
+          Taught Algebra I to high school and middle school students at a small private school in San Luis Obispo, CA.
+
+          Was a member of a curriculum development team to adjust the curriculum to have better gradual flow of concepts and ease the introduction to higher degree polynomials.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
