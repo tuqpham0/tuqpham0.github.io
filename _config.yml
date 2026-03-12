@@ -135,11 +135,15 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
   - title: More about me
-      
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+          Outside of academia, I enjoy bouldering, lifting, and drawing. I also enjoy cooking and have been experimenting with Vietnamese and Greek cuisines.
+
+          I am conversationally fluent in Vietnamese and Japanese, and am currently learning Spanish and Greek. 
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
