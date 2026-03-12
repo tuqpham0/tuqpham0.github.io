@@ -93,16 +93,7 @@ content:
             Dissertation: "Efficient tools for the geometric and topological analysis of machine learning models"
 
           You can find my list of presentations and publications at 
-        title: MS Mathematics; BS Mathematics, Minor Statistics
-        sub_title: Cal Poly
-        caption: 2018 -- 2020; 2011 -- 2016
-        # quote: >
-        #   Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Masters: studied pure mathematics and taught precalculus and calculus courses. For more information about my taught courses, see my CV.
-            Thesis: "Topological Data Analysis" - An introductory survey on the mathematics behind TDA, mainly persistent homology, and an application to time series analysis.
-            
-          Undergraduate: studied applied mathematics with a focus on computer science and statistics.
+
   - title: Experience
     layout: list
     content:
