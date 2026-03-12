@@ -84,6 +84,8 @@ content:
     layout: list
     content:
       - layout: top-right
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: PhD in mathematics
         sub_title: University of Florida
         caption: 2021 -- 2026
@@ -94,21 +96,27 @@ content:
 
           - Dissertation: "Efficient tools for the Geometric and Topological Analysis of Machine Learning Models"
       - layout: top-right
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: MS in mathematics
         sub_title: CalPoly, San Luis Obispo
         caption: 2018 -- 2020
         # quote: >
         #   " "
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Studied pure mathematics and taught precalculus and calculus courses as a graduate teaching assistant. Graduated with honors.
+          
+          My master's thesis focused on the theory behind topological data analysis, in particular persistent homology, and explored its applications to time series analysis.
       - layout: top-right
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: BS in mathematics and Minor in statistics
         sub_title: CalPoly, San Luis Obispo
         caption: 2011 -- 2016
         # quote: >
         #   " "
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Studied applied mathematics with a focus on computer science, with a minor in statistics.
   - title: Experience
     layout: list
     content:
