@@ -65,12 +65,12 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Bregman Kd-trees
-        link: tuqpham0.github.io/BANN
+        link: https://github.com/tuqpham0/BANN
         link_text: BANN Package
         additional_links:
           - title: GitHub Repository for BANN
             icon: fab fa-github
-            url: tuqpham0.github.com/BANN
+            url: https://github.com/tuqpham0/BANN
           - title:  PyPI page for BANN
             icon: fab fa-python
             url: https://pypi.org/project/BANN/
