@@ -79,7 +79,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           An extension of the kd-tree data structures for decomposable Bregman divergences. Despite often being assymmetric and never satisfy the triangle inequality, Bregman geometries admit a well-behaved geometry. This allows us to extend the Kd-tree beyond metric spaces and develop efficient algorithms.
           
-          This work is done in collaboration with Dr. Hubert Wagner, and built off of the ANN package made by Arya and Mount.
+          This project is in collaboration with Dr. Hubert Wagner, and built off of the ANN package made by Arya and Mount.
   - title: Education
     layout: list
     content:
@@ -110,7 +110,7 @@ content:
       - layout: top-right
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: BS in mathematics and Minor in statistics
+        title: BS in mathematics; Minor in statistics
         sub_title: CalPoly, San Luis Obispo
         caption: 2011 -- 2016
         # quote: >
@@ -131,9 +131,21 @@ content:
           Taught Algebra I to high school and middle school students at a small private school in San Luis Obispo, CA.
 
           Was a member of a curriculum development team to adjust the curriculum to have better gradual flow of concepts and ease the introduction to higher degree polynomials.
+  - title: Publications and Presentations
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      For a more in depth list of publications and presentations, please refer to my CV.
+      - "Fast Kd-trees for the Kullback--Leibler Divergence and other Decomposable Bregman Divergences" Tuyen Pham and Hubert Wagner.
+        - Published and presented at the 19th Algorithms and Data Structures Symposium (WADS 2025).
+      - "Bregman--Hausdorff Divergence: Strengthening the Connections Between Computational Geometry and Machine Learning" Tuyen Pham, Hana Dal Poz Kou\v{r}imsk\'a, and Hubert Wagner.
+        - Published in Machine Learning and Knowledge Extraction 2025.
+      - ""Computing Generators of Persistent Homology with a Double Twist" Tuyen Pham and Hubert Wagner.
+        - Published and presented at the 25th Canadian Conference on Computational Geometry (CCCG 2023).
+          
   - title: Research interests
     layout: text
     content: | # this will include new lines to allow paragraphs
+      My primary interests lie in computational topology and geometry, data science, and machine learning. I am also interested in computer vision, animation, and category theory.
   - title: More about me
     layout: text
     content: | # this will include new lines to allow paragraphs
