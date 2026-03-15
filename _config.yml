@@ -12,7 +12,7 @@ email: "{first}.{last}@ufl.edu"
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://tuqpham0.github.io
+website: tuqpham0.github.io
 website_title: Portfolio and Research
 
 # Dark Mode (true/false/never)
@@ -120,7 +120,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: top-right
         title: SLO Classical Academy
         sub_title: Algebra I teacher
         caption: 2020 -- 2021
