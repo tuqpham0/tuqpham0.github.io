@@ -12,8 +12,8 @@ email: "{first}.{last}@ufl.edu"
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: <a href="https://tuqpham0.github.io">Portfolio and Research</a>
-# website_title: Portfolio and Research
+website: https://tuqpham0.github.io
+website_title: Portfolio and Research
 
 # Dark Mode (true/false/never)
 darkmode: false
