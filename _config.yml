@@ -63,9 +63,9 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+      - layout: top-right
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        #               # other value (or no value) means no border will be displayed
         title: Bregman Kd-trees
         link: https://github.com/tuqpham0/BANN
         link_text: BANN Package
