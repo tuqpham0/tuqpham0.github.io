@@ -118,7 +118,13 @@
       {%- endif -%}
       {%- if site.website -%}
         <p>
-          {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+          {% comment %}{{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>{% endcomment %}
+          {% include a.html href=site.website %}{{ site.website_title | default: site.website | escape }}</a>
+        </p>
+      {%- endif -%}
+      {%- if site.publications -%}
+        <p>
+          {% include a.html href=site.publications %}{{ site.publications_title | default: "Publications" | escape }}</a>
         </p>
       {%- endif -%}
     </div>
