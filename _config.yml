@@ -139,7 +139,7 @@ content:
   - title: Publications and Presentations
     layout: text
     content: | # this will include new lines to allow paragraphs
-      For a more in depth list of presentations, please refer to my CV.
+      For a more in depth list of presentations, please refer to my [CV](asset/Tuyen_Pham_-_CV.pdf).
       - ["Computing Representatives of Persistent Homology Generators with a Double Twist"](https://arxiv.org/abs/2403.04100)<br>
         P., Wagner
         - Published and presented at the 25th Canadian Conference on Computational Geometry (CCCG 2023).
