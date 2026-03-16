@@ -13,6 +13,20 @@
   font-weight:500;
 }
 
+.header-right .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.header-right .icons li {
+  width: 25%;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+
 @media screen and (max-width: 767px) {
   .header-container div{
     text-align: center;
@@ -24,6 +38,16 @@
 
   .header-left {
     margin-top: 0px;
+  }
+
+  .header-right .icons {
+    justify-content: center;
+  }
+
+  .header-right .icons li {
+    width: auto;
+    padding-left: 0.75rem;
+    justify-content: center;
   }
 }
 
