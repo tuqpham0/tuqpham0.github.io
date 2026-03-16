@@ -2,13 +2,6 @@
 layout: standalone
 title: Research
 permalink: /research/
-kicker: Research Overview
-lead: Broad summaries of my work in persistent homology and Bregman geometry, with links to papers and software.
-quick_links:
-   - title: Persistent Homology
-      href: "#persistent-homology"
-   - title: Bregman Divergences
-      href: "#bregman-divergences"
 ---
 
 My research is in topological data analysis and computational geometry, especially in settings motivated by machine learning. This page gives a compact overview of two threads of that work and points to papers that contain the full technical details.
