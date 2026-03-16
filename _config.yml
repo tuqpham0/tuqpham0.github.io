@@ -14,7 +14,7 @@ email: "{first}.{last}@ufl.edu"
 # phone_title: Phone (Phone title override)
 website: https://tuqpham0.github.io
 website_title: Portfolio and Research
-publications: /research/
+publications: /research.md/
 publications_title: Publications
 
 # Dark Mode (true/false/never)
@@ -63,7 +63,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Bregman Kd-trees
