@@ -14,8 +14,8 @@ email: "{first}.{last}@ufl.edu"
 # phone_title: Phone (Phone title override)
 website: https://tuqpham0.github.io
 website_title: Portfolio and Research
-publications: /research/
-publications_title: Publications
+# publications: /research/
+# publications_title: Publications
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -136,14 +136,13 @@ content:
   - title: Publications and Presentations
     layout: text
     content: | # this will include new lines to allow paragraphs
-      For a more in depth list of publications and presentations, please refer to my CV.
-      - "Fast Kd-trees for the Kullback--Leibler Divergence and other Decomposable Bregman Divergences" Tuyen Pham and Hubert Wagner.
-        - Published and presented at the 19th Algorithms and Data Structures Symposium (WADS 2025).
-      - "Bregman--Hausdorff Divergence: Strengthening the Connections Between Computational Geometry and Machine Learning" Tuyen Pham, Hana Dal Poz Kou\v{r}imsk\'a, and Hubert Wagner.
-        - Published in Machine Learning and Knowledge Extraction 2025.
-      - ""Computing Generators of Persistent Homology with a Double Twist" Tuyen Pham and Hubert Wagner.
+      For a more in depth list of presentations, please refer to my CV.
+      - ["Computing Representatives of Persistent Homology Generators with a Double Twist"](https://arxiv.org/abs/2403.04100) - P., Wagner
         - Published and presented at the 25th Canadian Conference on Computational Geometry (CCCG 2023).
-          
+      - ["Fast Kd-Trees for the Kullback\text{--}Leibler Divergence and Other Decomposable Bregman Divergences"](https://arxiv.org/abs/2502.13425) - P., Wagner
+        - Published and presented at the 19th Algorithms and Data Structures Symposium (WADS 2025).
+      - ["Bregman-Hausdorff divergence: strengthening the connections between computational geometry and machine learning"](https://arxiv.org/abs/2504.07322) - P. Dal Poz \text{Kou\v{r}imsk\'{a}}, Wagner
+        - Published in Machine Learning and Knowledge Extraction 2025.
   - title: Research interests
     layout: text
     content: | # this will include new lines to allow paragraphs
