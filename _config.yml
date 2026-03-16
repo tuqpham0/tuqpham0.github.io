@@ -144,7 +144,7 @@ content:
         P., Wagner
         - Published and presented at the 19th Algorithms and Data Structures Symposium (WADS 2025).
       - ["Bregman-Hausdorff divergence: strengthening the connections between computational geometry and machine learning"](https://arxiv.org/abs/2504.07322)<br>
-        P. Dal Poz Kouřimskà, Wagner
+        P., Dal Poz Kouřimskà, Wagner
         - Published in Machine Learning and Knowledge Extraction 2025.
   - title: Research interests
     layout: text
@@ -153,9 +153,9 @@ content:
   - title: More about me
     layout: text
     content: | # this will include new lines to allow paragraphs
-          Outside of academia, I enjoy bouldering, lifting, and drawing. I also enjoy cooking and have been experimenting with Vietnamese and Greek cuisines.
+          Outside of academia, I enjoy bouldering, lifting, drawing, and cooking.
 
-          I am conversationally fluent in Vietnamese and Japanese, and am currently learning Spanish and Greek. 
+          I am conversationally fluent in Vietnamese and Japanese, and am currently learning Spanish. 
 
 # Footer
 footer_show_references: true
