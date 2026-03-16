@@ -62,6 +62,11 @@ about_content: | # this will include new lines to allow paragraphs
 
   I have also worked on projects in computational topology, including an algorithm for computing generators of persistent homology.
 
+  <div style="text-align: right;">
+    **Research interests**
+  <\div>
+  My primary interests lie in computational topology and geometry, data science, and machine learning. I am also interested in computer vision, animation, and category theory.
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -149,10 +154,6 @@ content:
       - ["Bregman-Hausdorff divergence: strengthening the connections between computational geometry and machine learning"](https://arxiv.org/abs/2504.07322)<br>
         P., Dal Poz Kouřimskà, Wagner
         - Published in Machine Learning and Knowledge Extraction 2025.
-  - title: Research interests
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      My primary interests lie in computational topology and geometry, data science, and machine learning. I am also interested in computer vision, animation, and category theory.
   - title: More about me
     layout: text
     content: | # this will include new lines to allow paragraphs
