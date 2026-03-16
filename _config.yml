@@ -40,9 +40,12 @@ additional_links:
 - title: University of Florida page
   icon: fas fa-university
   url: https://people.clas.ufl.edu/tuyen-pham/
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+- title: Resume
+  icon: fas fa-file-lines
+  url: /assets/Tuyen_Pham_-_Resume.pdf
+- title: Curriculum Vitae
+  icon: fas fa-graduation-cap
+  url: /assets/Tuyen_Pham_-_CV.pdf
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -77,7 +80,7 @@ content:
             icon: fab fa-python
             url: https://pypi.org/project/BANN/
         quote: >
-          An efficient tool for computing (approximate) nearest neighbors with decomposable Bregman divergences. It also permits efficient algorithms for computing the Bregman--Hausdorff divergence.
+          An efficient extention of Kd-trees to a non-metric setting often used in machine learning.
         description: | # this will include new lines to allow paragraphs
           An extension of the kd-tree data structures for decomposable Bregman divergences. Despite often being assymmetric and never satisfy the triangle inequality, Bregman geometries admit a well-behaved geometry. This allows us to extend the Kd-tree beyond metric spaces and develop efficient algorithms.
           
