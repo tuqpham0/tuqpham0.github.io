@@ -63,8 +63,8 @@ about_content: | # this will include new lines to allow paragraphs
   I have also worked on projects in computational topology, including an algorithm for computing generators of persistent homology.
 
   <div style="text-align: right;">
-    **Research interests**
-  <\div>
+    <strong>Research interests</strong><br>
+  </div>
   My primary interests lie in computational topology and geometry, data science, and machine learning. I am also interested in computer vision, animation, and category theory.
 
 content:
