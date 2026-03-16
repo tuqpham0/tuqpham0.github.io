@@ -2,6 +2,7 @@
 layout: standalone
 title: Research
 permalink: /research/
+math: true
 ---
 
 My research is in topological data analysis and computational geometry, especially in settings motivated by machine learning. This page gives a compact overview of two threads of that work and points to papers that contain the full technical details.
