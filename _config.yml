@@ -14,7 +14,7 @@ email: "{first}.{last}@ufl.edu"
 # phone_title: Phone (Phone title override)
 website: https://tuqpham0.github.io
 website_title: Portfolio and Research
-publications: /research
+publications: /research/
 publications_title: Publications
 
 # Dark Mode (true/false/never)
