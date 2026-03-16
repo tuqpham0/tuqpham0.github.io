@@ -1,3 +1,9 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
 # Research
 My research is in TDA and computational geometry relating to Bregman divergences. Here I will give a brief summary of persistent homology and Bregman geometries in relation to my research. I have also provided ArXiv links to relevant papers.
 
