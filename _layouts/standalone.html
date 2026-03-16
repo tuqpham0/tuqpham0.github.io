@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %} standalone-page">
+  <main class="page-content standalone-page-content" aria-label="Content">
+    <div class="wrapper standalone-shell">
+      <nav class="standalone-nav" aria-label="Page navigation">
+        <a class="standalone-home" href="{{ '/' | relative_url }}">{{ site.name | escape }}</a>
+        <div class="standalone-nav-links">
+          {% if site.website %}
+            <a href="{{ site.website }}">Home</a>
+          {% endif %}
+          {% if site.publications %}
+            <a href="{{ site.publications | relative_url }}">{{ site.publications_title | default: "Publications" | escape }}</a>
+          {% endif %}
+        </div>
+      </nav>
+
+      <header class="standalone-hero">
+        {% if page.kicker %}
+          <p class="standalone-kicker">{{ page.kicker | escape }}</p>
+        {% endif %}
+        <h1>{{ page.title | escape }}</h1>
+        {% if page.lead %}
+          <p class="standalone-lead">{{ page.lead }}</p>
+        {% endif %}
+        {% if page.quick_links %}
+          <ul class="standalone-quick-links">
+            {% for link in page.quick_links %}
+              <li><a href="{{ link.href }}">{{ link.title | escape }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </header>
+
+      <article class="standalone-article">
+        {{ content }}
+      </article>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>

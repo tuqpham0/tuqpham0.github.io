@@ -167,6 +167,128 @@
   padding: 0;
 }
 
+.standalone-page-content {
+  padding: 4rem 0 0;
+}
+
+.standalone-shell {
+  max-width: 900px;
+}
+
+.standalone-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.standalone-home {
+  color: inherit;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.standalone-nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.standalone-nav-links a {
+  color: inherit;
+  font-weight: 400;
+}
+
+.standalone-hero {
+  margin-bottom: 3rem;
+}
+
+.standalone-kicker {
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #767676;
+}
+
+.standalone-hero h1 {
+  margin-bottom: 1rem;
+}
+
+.standalone-lead {
+  max-width: 760px;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.standalone-quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin: 2rem 0 0;
+  list-style: none;
+}
+
+.standalone-quick-links a {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 999px;
+  color: inherit;
+  font-size: 1.4rem;
+}
+
+.standalone-article {
+  font-size: 1.7rem;
+  line-height: 1.8;
+}
+
+.standalone-article h1 {
+  display: none;
+}
+
+.standalone-article h2 {
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e3e3e3;
+}
+
+.standalone-article p,
+.standalone-article ul,
+.standalone-article ol,
+.standalone-article blockquote {
+  max-width: 760px;
+}
+
+.standalone-article li {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .standalone-page-content {
+    padding-top: 2.5rem;
+  }
+
+  .standalone-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .standalone-nav-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .standalone-lead {
+    font-size: 1.8rem;
+  }
+}
+
 .contact a {
   line-height: 50px;
   margin-left: 30px;
