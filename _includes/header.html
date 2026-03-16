@@ -124,7 +124,7 @@
       {%- endif -%}
       {%- if site.publications -%}
         <p>
-          {% include a.html href=site.publications %}{{ site.publications_title | default: "Publications" | escape }}</a>
+          <a href="{{ site.publications | relative_url }}">{{ site.publications_title | default: "Publications" | escape }}</a>
         </p>
       {%- endif -%}
     </div>
