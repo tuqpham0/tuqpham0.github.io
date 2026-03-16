@@ -41,11 +41,11 @@ additional_links:
   icon: fas fa-university
   url: https://people.clas.ufl.edu/tuyen-pham/
 - title: Resume
-  icon: fas fa-file-lines
-  url: /assets/Tuyen_Pham_-_Resume.pdf
+  icon: fas fa-briefcase
+  url: https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf
 - title: Curriculum Vitae
   icon: fas fa-graduation-cap
-  url: /assets/Tuyen_Pham_-_CV.pdf
+  url: https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
