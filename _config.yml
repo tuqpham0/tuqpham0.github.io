@@ -53,6 +53,7 @@ additional_links:
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
+
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
@@ -60,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am a PhD student in mathematics at the University of Florida. My research focuses on computational topology and geometry, with applications to machine learning.
   My current project focuses on creating efficient algorithms and data structures for working with Bregman divergences, a family of dissimilarity measures used in machine learning and data analysis, and their induced geometries.
 
-  I have also worked on projects in computational topology, including an algorithm for computing generators of persistent homology.
+  My previous project was in computational topology: designing an algorithm for more efficiently computing generators of persistent homology.
 
   <div style="text-align: right; font-size: 2rem; font-weight: 500; margin-bottom: 0.25rem;">Research interests</div>
   My primary interests lie in computational topology and geometry, data science, and machine learning. I am also interested in computer vision, animation, and category theory.
@@ -142,11 +143,11 @@ content:
   - title: Publications and Presentations
     layout: text
     content: | # this will include new lines to allow paragraphs
-      For a more in depth list of presentations, please refer to my [CV](asset/Tuyen_Pham_-_CV.pdf).
+      For a more in depth list of presentations, please refer to my [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf).
       - ["Computing Representatives of Persistent Homology Generators with a Double Twist"](https://arxiv.org/abs/2403.04100)<br>
         P., Wagner
         - Published and presented at the 25th Canadian Conference on Computational Geometry (CCCG 2023).
-      - ["Fast Kd-Trees for the Kullback\text{--}Leibler Divergence and Other Decomposable Bregman Divergences"](https://arxiv.org/abs/2502.13425)<br>
+      - ["Fast Kd-Trees for the Kullback—Leibler Divergence and Other Decomposable Bregman Divergences"](https://arxiv.org/abs/2502.13425)<br>
         P., Wagner
         - Published and presented at the 19th Algorithms and Data Structures Symposium (WADS 2025).
       - ["Bregman-Hausdorff divergence: strengthening the connections between computational geometry and machine learning"](https://arxiv.org/abs/2504.07322)<br>
@@ -157,7 +158,7 @@ content:
     content: | # this will include new lines to allow paragraphs
           Outside of academia, I enjoy bouldering, lifting, drawing, and cooking.
 
-          I am conversationally fluent in Vietnamese and Japanese, and am currently learning Spanish. 
+          In addition to English, I am conversationally fluent in Vietnamese and Japanese, and am currently learning Spanish. 
 
 # Footer
 footer_show_references: true
