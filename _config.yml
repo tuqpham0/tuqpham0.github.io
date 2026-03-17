@@ -63,6 +63,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   My previous project was in computational topology: designing an algorithm for more efficiently computing generators of persistent homology.
 
+  I am currently looking to transition into industry after graduation, and am interested in roles in data science, machine learning, and software engineering. You can find more about my qualifications in my [resume](https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf) and [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf).
+
   <div style="text-align: right; font-size: 2rem; font-weight: 500; margin-bottom: 0.25rem;">Research interests</div>
   My primary interests lie in computational topology and geometry, data science, and machine learning. I am also interested in computer vision, animation, and category theory.
 
@@ -108,8 +110,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: MS in mathematics
-        sub_title: CalPoly, San Luis Obispo
-        caption: 2018 -- 2020
+        sub_title: Cal Poly, San Luis Obispo
+        caption: 2018 — 2020
         # quote: >
         #   " "
         description: | # this will include new lines to allow paragraphs
@@ -120,8 +122,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: BS in mathematics; Minor in statistics
-        sub_title: CalPoly, San Luis Obispo
-        caption: 2011 -- 2016
+        sub_title: Cal Poly, San Luis Obispo
+        caption: 2011 — 2016
         # quote: >
         #   " "
         description: | # this will include new lines to allow paragraphs
@@ -132,7 +134,7 @@ content:
       - layout: top-right
         title: SLO Classical Academy
         sub_title: Algebra I teacher
-        caption: 2020 -- 2021
+        caption: 2020 — 2021
         link: https://sloclassical.org/
         # quote: >
         #   " "
@@ -143,7 +145,7 @@ content:
   - title: Publications and Presentations
     layout: text
     content: | # this will include new lines to allow paragraphs
-      For a more in depth list of presentations, please refer to my [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf).
+      For a more in depth list of presentations, please refer to my [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf) or my [resume](https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf).
       - ["Computing Representatives of Persistent Homology Generators with a Double Twist"](https://arxiv.org/abs/2403.04100)<br>
         P., Wagner
         - Published and presented at the 25th Canadian Conference on Computational Geometry (CCCG 2023).
