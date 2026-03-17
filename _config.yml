@@ -56,7 +56,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/IMG_1206.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I am a PhD student in mathematics at the University of Florida. My research focuses on computational topology and geometry, with applications to machine learning.
   My current project focuses on creating efficient algorithms and data structures for working with Bregman divergences, a family of dissimilarity measures used in machine learning and data analysis, and their induced geometries.
