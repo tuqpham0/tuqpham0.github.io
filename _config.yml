@@ -63,7 +63,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   My previous project was in computational topology: designing an algorithm for more efficiently computing generators of persistent homology.
 
-  I am currently looking to transition into industry after graduation, and am interested in roles in data science, machine learning, and software engineering. You can find more about my qualifications in my [resume](https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf) and [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf).
+  I am currently looking to transition into industry after graduation, and am interested in roles in data science, machine learning, and software engineering. You can find more about my qualifications in my [resume](https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf) or [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf).
 
   <div style="text-align: right; font-size: 2rem; font-weight: 500; margin-bottom: 0.25rem;">Research interests</div>
   My primary interests lie in computational topology and geometry, data science, and machine learning. I am also interested in computer vision, animation, and category theory.
@@ -121,7 +121,7 @@ content:
       - layout: top-right
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: BS in mathematics; Minor in statistics
+        title: BSc in mathematics; Minor in statistics
         sub_title: Cal Poly, San Luis Obispo
         caption: 2011 — 2016
         # quote: >
