@@ -37,9 +37,10 @@ googlescholar_username: PbaipGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: University of Florida page
+- title: Research overview
   icon: fas fa-university
-  url: https://people.clas.ufl.edu/tuyen-pham/
+  # url: https://people.clas.ufl.edu/tuyen-pham/research/
+  url: /research/
 - title: Resume
   icon: fas fa-briefcase
   url: https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf
