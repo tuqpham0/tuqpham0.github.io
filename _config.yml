@@ -162,7 +162,6 @@ content:
         title: Graduate Teaching Assistant
         sub_title: Cal Poly, San Luis Obispo
         caption: 2018 — 2020
-        link: https://people.clas.ufl.edu/tuyen-pham/
         # quote: >
         #   " "
         description: | # this will include new lines to allow paragraphs
@@ -170,7 +169,7 @@ content:
   - title: Publications and Presentations
     layout: text
     content: | # this will include new lines to allow paragraphs
-      For a more in depth list of presentations, please refer to my [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf) or my [resume](https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf).
+      For a more in depth list of presentations and talks, please refer to my [CV](https://tuqpham0.github.io/assets/Tuyen_Pham_-_CV.pdf). You can find a general overview of my research projects [here](https://tuqpham0.github.io/research/).
       - ["Computing Representatives of Persistent Homology Generators with a Double Twist"](https://arxiv.org/abs/2403.04100)<br>
         P., Wagner
         - Published and presented at the 25th Canadian Conference on Computational Geometry (CCCG 2023).
