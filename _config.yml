@@ -132,6 +132,17 @@ content:
     layout: list
     content:
       - layout: top-left
+        title: Topological data analysis seminar organizer
+        sub_title: University of Florida
+        caption: Aug 2024 — Dec 2024
+        link: https://tda.math.ufl.edu/fall24/
+        # quote: >
+        #   " "
+        description: | # this will include new lines to allow paragraphs
+          Organized and led a seminar on topological data analysis for graduate students at the University of Florida. The seminar covers recent advances in theory and applications of topological data analysis.
+
+          During my time as seminar organizer, I shifted focus toward application and algorithms of TDA.
+      - layout: top-left
         title: SLO Classical Academy
         sub_title: Algebra I teacher
         caption: 2020 — 2021
@@ -142,6 +153,15 @@ content:
           Taught Algebra I to high school and middle school students at a private school in San Luis Obispo, CA.
 
           Was a member of a curriculum development team to adjust the curriculum to have better gradual flow of concepts and ease the introduction to higher degree polynomials.
+      - layout: top-left
+        title: Graduate Teaching Assistant
+        sub_title: Cal Poly, San Luis Obispo
+        caption: 2018 — 2020
+        link: https://people.clas.ufl.edu/tuyen-pham/
+        # quote: >
+        #   " "
+        description: | # this will include new lines to allow paragraphs
+          Instructor of Record for Precalculus and Business Calculus courses.
   - title: Publications and Presentations
     layout: text
     content: | # this will include new lines to allow paragraphs
