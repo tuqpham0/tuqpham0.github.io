@@ -40,7 +40,7 @@ additional_links:
 - title: Research overview
   icon: fas fa-university
   # url: https://people.clas.ufl.edu/tuyen-pham/research/
-  url: /research/
+  url: https://tuqpham0.github.io/research/
 - title: Resume
   icon: fas fa-briefcase
   url: https://tuqpham0.github.io/assets/Tuyen_Pham_-_Resume.pdf
@@ -145,7 +145,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Organized and led a seminar on topological data analysis for graduate students at the University of Florida. The seminar covers recent advances in theory and applications of topological data analysis.
 
-          During my time as seminar organizer, I shifted focus toward application and algorithms of TDA.
+          During my time as seminar organizer, I shifted focus toward applications of TDA and algorithm design.
       - layout: top-left
         title: SLO Classical Academy
         border: weak
