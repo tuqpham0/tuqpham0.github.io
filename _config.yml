@@ -136,6 +136,7 @@ content:
     content:
       - layout: top-left
         title: Topological data analysis seminar organizer
+        border: weak
         sub_title: University of Florida
         caption: Aug 2024 — Dec 2024
         link: https://tda.math.ufl.edu/fall24/
@@ -147,6 +148,7 @@ content:
           During my time as seminar organizer, I shifted focus toward application and algorithms of TDA.
       - layout: top-left
         title: SLO Classical Academy
+        border: weak
         sub_title: Algebra I teacher
         caption: 2020 — 2021
         link: https://sloclassical.org/
