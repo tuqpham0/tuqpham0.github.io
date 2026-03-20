@@ -155,9 +155,9 @@ content:
         # quote: >
         #   " "
         description: | # this will include new lines to allow paragraphs
-          Taught Algebra I to high school and middle school students at a private school in San Luis Obispo, CA.
+          Taught Algebra I to high school and middle school students at a private school in San Luis Obispo, CA. These courses were hybrid in-person and online due to the COVID-19 pandemic. I created lesson plans, assignments, and assessments for the course.
 
-          Was a member of a curriculum development team to adjust the curriculum to have better gradual flow of concepts and ease the introduction to higher degree polynomials.
+          Was a member of a curriculum development team to adjust the curriculum to have a more gradual flow of concepts and ease the introduction to higher degree polynomials.
       - layout: top-left
         title: Graduate Teaching Assistant
         sub_title: Cal Poly, San Luis Obispo
@@ -165,7 +165,9 @@ content:
         # quote: >
         #   " "
         description: | # this will include new lines to allow paragraphs
-          Instructor of Record for Precalculus and Business Calculus courses.
+          Instructor of Record for Precalculus (MATH 116, 3 courses; MATH 118, 1 course) and Business Calculus (MATH 221, 2 courses) courses.
+
+          For these courses, I wrote syllabi, created and graded assignments and exams, held office hours, and taught lectures. During the Spring 2020 quarter, I adapted to online teaching for the COVID-19 pandemic and created online lectures and materials for students.
   - title: Publications and Presentations
     layout: text
     content: | # this will include new lines to allow paragraphs
