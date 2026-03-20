@@ -72,7 +72,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
+      - layout: top-left
         # border: weak  # Value of `weak` will display a weak border below this item. # Any 
         #               # other value (or no value) means no border will be displayed
         title: Bregman Kd-trees
@@ -94,7 +94,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: PhD in mathematics
@@ -106,7 +106,7 @@ content:
           Studied computational topology and geometry under the supervision of Dr. Hubert Wagner. My research focuses on the topological and geometric analysis of machine learning models via their outputs or internal representations.
 
           - Dissertation: "Efficient tools for the Geometric and Topological Analysis of Machine Learning Models"
-      - layout: top-right
+      - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: MS in mathematics
@@ -118,8 +118,8 @@ content:
           Studied pure mathematics and taught precalculus and calculus courses as a graduate teaching assistant. Graduated with honors.
           
           My master's thesis focused on the theory behind topological data analysis, in particular persistent homology, and explored its applications to time series analysis.
-      - layout: top-right
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      - layout: top-left
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: BSc in mathematics; Minor in statistics
         sub_title: Cal Poly, San Luis Obispo
@@ -131,7 +131,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: SLO Classical Academy
         sub_title: Algebra I teacher
         caption: 2020 — 2021
