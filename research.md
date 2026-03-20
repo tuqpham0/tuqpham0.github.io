@@ -7,22 +7,54 @@ math: true
 
 My research is in topological data analysis and computational geometry, especially in settings motivated by machine learning. This page gives a compact overview of two threads of that work and points to papers that contain the full technical details.
 
+<style>
+  .research-media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .research-media-item {
+    min-width: 0;
+  }
+
+  .research-media-item video,
+  .research-media-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .research-media-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .research-media-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 ## Persistent Homology
 - ["Computing Representatives of Persistent Homology Generators with a Double Twist"](https://arxiv.org/abs/2403.04100) - P., Wagner
 
 The standard output of persistent homology is the persistence diagram. This diagram captures at what parameter values topological features appear and when they disappear, and thus, how *persistent* topological feature are within the data. However, we for each feature, we can also capture *where* these features appear in the data during their lifetime. The representatives of persistent homology generators provide a geometric visualization of where these holes are in the data.
 
-<div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 300px;">
-    <video autoplay loop muted playsinline width="100%" style="height: auto; display: block;" poster="/assets/Alpha_4.png">
+<div class="research-media-grid">
+  <div class="research-media-item">
+    <video autoplay loop muted playsinline poster="/assets/Alpha_4.png">
       <source src="/assets/Alpha_complex(1).mp4" type="video/mp4">
     </video>
   </div>
-  <div style="flex: 0 0 auto; max-width: 300px;">
-    <embed src="/assets/alpha_pd.pdf" width="100%">
+  <div class="research-media-item">
+    <img src="/assets/alpha_pd.png" alt="Persistence diagram">
   </div>
-  <div style="flex: 0 0 auto; max-width: 300px;">
-    <embed src="/assets/generators.pdf" width="100%">
+  <div class="research-media-item">
+    <img src="/assets/generators.png" alt="Persistent homology generators">
   </div>
 </div>
 
