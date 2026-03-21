@@ -14,6 +14,9 @@ My research is in topological data analysis and computational geometry, especial
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     align-items: start;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .research-media-item {
@@ -40,6 +43,7 @@ My research is in topological data analysis and computational geometry, especial
   @media screen and (max-width: 700px) {
     .research-media-grid {
       grid-template-columns: 1fr;
+      width: 100%;
     }
 
     .research-media-item-wide {
@@ -78,12 +82,14 @@ Virk and Čufar independently devised this algorithm and implemented [Ripserer](
 For machine learning tasks which utilize a loss function for training, the outputs of the model lie in a space dependent on the loss function. Thus, if we want to analyze the outputs of models, we should do so with tools which respect the geometry induced by said loss functions. This project focuses on the family of Bregman divergences. To motivate Bregman divergences, consider relative entropy.
 
 **Example** In machine learning and information theory, a popular dissimilarity measurement between probability distributions is relative entropy, also known as the Kullback--Leibler (KL) divergence. We can write relative as a Bregman divergence.
-\begin{align*}
+
+$$\begin{align*}
    D_{KL}(x\|y)   &=\sum_{i=1}^k x_i\log_2 \frac{x_i}{y_i}\\
                   &=-\sum_{i=1}^k x_i\log_2 \frac{1}{x_i} - \sum_{i=1}^{k}x_i\log_2\frac{1}{y_i}\\
                   &=-\text{entropy} - (-\text{cross entropy})\\
                   &= \text{cross entropy} - \text{entropy}\\
-\end{align*}
+\end{align*}$$
+
 For classifiers, the cross entropy is minimized as a shortcut for minimizing the KL divergence. Thus, analytical tools for interpretting classifier models should respect the geometry induced by the KL divergence.
 
 Other popular examples of Bregman divergences include:
