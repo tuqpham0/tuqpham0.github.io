@@ -60,7 +60,7 @@ The standard output of persistent homology is the persistence diagram. This diag
 <div class="research-media-grid">
   <div class="research-media-item">
     <video autoplay loop muted playsinline poster="/assets/Alpha_4.png">
-      <source src="/assets/Alpha_complex.mp4" type="video/mp4">
+      <source src="/assets/Alpha_complex.webm" type="video/webm">
     </video>
   </div>
   <div class="research-media-item">
