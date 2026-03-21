@@ -85,8 +85,16 @@
     text-align: center;
   }
 
+  .layout .details {
+    align-items: center;
+  }
+
   .layout .details h4 {
     text-align: center !important;
+  }
+
+  .layout .details .aditional-links {
+    text-align: center;
   }
 }
 
@@ -165,7 +173,7 @@
   }
 }
 
-.layout-left, .layout-right {
+.layout-left, .layout-top-left, .layout-right {
   @media screen and (max-width: 767px) {
     flex-direction: column;
   }
