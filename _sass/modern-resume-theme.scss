@@ -80,6 +80,14 @@
   .container .section-body {
     padding-left: 2rem;
   }
+
+  .container > h3 {
+    text-align: center;
+  }
+
+  .layout .details h4 {
+    text-align: center !important;
+  }
 }
 
 .border-weak  {
