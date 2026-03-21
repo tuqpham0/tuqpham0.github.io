@@ -2,6 +2,7 @@
 layout: standalone
 title: Research
 permalink: /research/
+body_class: research-page
 math: true
 ---
 
@@ -10,7 +11,7 @@ My research is in topological data analysis and computational geometry, especial
 <style>
   .research-media-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     align-items: start;
   }
@@ -26,6 +27,10 @@ My research is in topological data analysis and computational geometry, especial
     height: auto;
   }
 
+  .research-media-item-wide {
+    grid-column: 1 / -1;
+  }
+
   @media screen and (max-width: 1024px) {
     .research-media-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -35,6 +40,10 @@ My research is in topological data analysis and computational geometry, especial
   @media screen and (max-width: 700px) {
     .research-media-grid {
       grid-template-columns: 1fr;
+    }
+
+    .research-media-item-wide {
+      grid-column: auto;
     }
   }
 </style>
@@ -47,13 +56,13 @@ The standard output of persistent homology is the persistence diagram. This diag
 <div class="research-media-grid">
   <div class="research-media-item">
     <video autoplay loop muted playsinline poster="/assets/Alpha_4.png">
-      <source src="/assets/Alpha_complex(1).mp4" type="video/mp4">
+      <source src="/assets/Alpha_complex.mp4" type="video/mp4">
     </video>
   </div>
   <div class="research-media-item">
     <img src="/assets/alpha_pd.png" alt="Persistence diagram">
   </div>
-  <div class="research-media-item">
+  <div class="research-media-item research-media-item-wide">
     <img src="/assets/generators.png" alt="Persistent homology generators">
   </div>
 </div>

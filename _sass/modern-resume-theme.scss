@@ -315,6 +315,22 @@
   max-width: 760px;
 }
 
+body.research-page .standalone-shell {
+  max-width: none;
+  width: 100%;
+}
+
+body.research-page .standalone-lead {
+  max-width: none;
+}
+
+body.research-page .standalone-article p,
+body.research-page .standalone-article ul,
+body.research-page .standalone-article ol,
+body.research-page .standalone-article blockquote {
+  max-width: none;
+}
+
 .standalone-article li {
   margin-bottom: 0.5rem;
 }

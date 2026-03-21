@@ -3,7 +3,7 @@
 
 {%- include head.html -%}
 
-<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %} standalone-page">
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %} standalone-page{% if page.body_class %} {{ page.body_class }}{% endif %}">
   <main class="page-content standalone-page-content" aria-label="Content">
     <div class="wrapper standalone-shell">
       <nav class="standalone-nav" aria-label="Page navigation">
